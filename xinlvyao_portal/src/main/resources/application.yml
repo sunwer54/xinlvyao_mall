@@ -1,0 +1,20 @@
+#配置视图解析器
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  profiles:
+    active: redis
+#配置zookeeper注册中心
+dubbo:
+  application:
+    name: jd_portal
+  registry:
+    address: zookeeper://192.168.175.129:2181
+  protocol:
+    name: dubbo
+    port: 20883
+#配置当前微服务的Tomcat服务器端口
+server:
+  port: 8082

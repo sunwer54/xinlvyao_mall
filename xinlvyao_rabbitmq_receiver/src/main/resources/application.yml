@@ -1,0 +1,20 @@
+#配置连接rabbitmq服务器的参数
+spring:
+  rabbitmq:
+    host: 192.168.175.129
+    username: admin
+    password: admin
+    port: 5672
+  profiles:
+    active: redis
+#给当前的工程的tomcat指定一个端口
+server:
+  port: 81
+dubbo:
+  application:
+    name: jd_rabbitmq_reciever
+  registry:
+    address: zookeeper://192.168.175.129:2181
+  protocol:
+    name: dubbo
+    port: 20889

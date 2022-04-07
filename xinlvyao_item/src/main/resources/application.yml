@@ -1,0 +1,20 @@
+#配置注册服务中心
+dubbo:
+  application:
+    name: jd_manager
+  registry:
+    address: zookeeper://192.168.175.129:2181
+  protocol:
+    name: dubbo
+    port: 20882
+#关联redis模块配置文件
+spring:
+  profiles:
+    active: redis
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+#给当前微服务配置tomcat服务器端口
+server:
+  port: 8081

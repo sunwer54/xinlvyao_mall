@@ -1,0 +1,14 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  elasticsearch:
+    rest:
+      uris:
+        - http://192.168.175.129:9200
+        - http://192.168.175.130:9200
+  profiles:
+    active: mapper
+server:
+  port: 8083

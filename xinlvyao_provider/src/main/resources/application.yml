@@ -1,0 +1,19 @@
+#动态关联mapper配置文件
+spring:
+  profiles:
+    active: mapper
+#配置注册服务中心
+dubbo:
+  application:
+    name: jd_provider
+  registry:
+    address: zookeeper://192.168.175.129:2181
+  protocol:
+    name: dubbo
+    port: 20881
+
+
+
+#给当前微服务的tomcat服务器设置一个端口
+server:
+  port: 8080

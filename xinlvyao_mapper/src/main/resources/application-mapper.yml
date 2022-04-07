@@ -1,0 +1,11 @@
+#设置数据库的连接参数
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://192.168.175.129:3306/jd?serverTimezone=UTC&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+#扫描mapper中的映射xml文件
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

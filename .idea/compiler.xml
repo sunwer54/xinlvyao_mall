@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jd_shoppcart" />
+        <module name="xinlvyao_portal" />
+        <module name="jd_manager" />
+        <module name="jd_trade" />
+        <module name="xinlvyao_manager" />
+        <module name="jd_rabbitmq_sender" />
+        <module name="xinlvyao_mapper" />
+        <module name="xinlvyao_shoppcart" />
+        <module name="xinlvyao_provider" />
+        <module name="xinlvyao_trade" />
+        <module name="xinlvyao_redis" />
+        <module name="xinlvyao_passport" />
+        <module name="jd_redis" />
+        <module name="jd_rabbitmq_receiver" />
+        <module name="jd_commons" />
+        <module name="xinlvyao_commons" />
+        <module name="xinlvyao_item" />
+        <module name="jd_item" />
+        <module name="jd_search" />
+        <module name="jd_provider" />
+        <module name="jd_portal" />
+        <module name="xinlvyao_pojo" />
+        <module name="jd_passport" />
+        <module name="xinlvyao_rabbitmq_receiver" />
+        <module name="jd_pojo" />
+        <module name="xinlvyao_api" />
+        <module name="xinlvyao_search" />
+        <module name="jd_mapper" />
+        <module name="xinlvyao_rabbitmq_sender" />
+        <module name="jd_api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jd_api" options="-parameters" />
+      <module name="jd_commons" options="-parameters" />
+      <module name="jd_item" options="-parameters" />
+      <module name="jd_manager" options="-parameters" />
+      <module name="jd_mapper" options="-parameters" />
+      <module name="jd_passport" options="-parameters" />
+      <module name="jd_pojo" options="-parameters" />
+      <module name="jd_portal" options="-parameters" />
+      <module name="jd_provider" options="-parameters" />
+      <module name="jd_rabbitmq_receiver" options="-parameters" />
+      <module name="jd_rabbitmq_sender" options="-parameters" />
+      <module name="jd_redis" options="-parameters" />
+      <module name="jd_search" options="-parameters" />
+      <module name="jd_shoppcart" options="-parameters" />
+      <module name="jd_trade" options="-parameters" />
+      <module name="xinlvyao_api" options="-parameters" />
+      <module name="xinlvyao_commons" options="-parameters" />
+      <module name="xinlvyao_item" options="-parameters" />
+      <module name="xinlvyao_manager" options="-parameters" />
+      <module name="xinlvyao_mapper" options="-parameters" />
+      <module name="xinlvyao_passport" options="-parameters" />
+      <module name="xinlvyao_pojo" options="-parameters" />
+      <module name="xinlvyao_portal" options="-parameters" />
+      <module name="xinlvyao_provider" options="-parameters" />
+      <module name="xinlvyao_rabbitmq_receiver" options="-parameters" />
+      <module name="xinlvyao_rabbitmq_sender" options="-parameters" />
+      <module name="xinlvyao_redis" options="-parameters" />
+      <module name="xinlvyao_search" options="-parameters" />
+      <module name="xinlvyao_shoppcart" options="-parameters" />
+      <module name="xinlvyao_trade" options="-parameters" />
+    </option>
+  </component>
+</project>
